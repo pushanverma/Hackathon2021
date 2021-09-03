@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Break the Shackles 3.0</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <!-- linking google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- this is linking style sheet -->
     <link rel="stylesheet" href="styles.css">
     <!-- this is linking bootstrap -->
@@ -19,16 +20,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 </head>
 <body>
-
+ 
 
     <!-- Navbar -->
     <nav>
+        <input id="nav-toggle" type="checkbox">
+
         <div class="logo ">
-           
             <img src="images/1m.png" alt=" Breaking the Shackles 3.0">
         </div>
         
-        <ul>
+        <ul class="links">
             <li> <a href="#">Home</a></li>
             <li> <a href="#">Register</a></li>
             <li> <a href="#">About</a></li>
@@ -39,14 +41,30 @@
             <li> <a href="#">FAQ</a></li>
             <li> <a href="#">Contact Us</a></li>
         </ul>
+        <label for="nav-toggle" class="icon-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </label>
+
     </nav>
     
     <!-- Landing Page -->
     <section>
         <div class="home">
-            <!-- <h1>Break The Shackles 3.0</h1> -->
-            <!-- <button type="button" class="btn btn-success">Apply with Devfolio</button>
-            <button type="button" class="btn btn-success">Join Discord Server</button> -->
+            <div class="row">
+                <div class="col-lg">
+                    <h1 class="logotext">Break The Shackles 3.0</h1> 
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                <button type="button" class=" bt btn btn-success">Apply with Devfolio</button>
+               <button type="button" class="bt btn btn-success">Join Discord Server</button>
+                </div>
+                
+            </div>
             
         </div>
     </section>
