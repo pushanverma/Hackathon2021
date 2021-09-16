@@ -241,6 +241,29 @@ nav .icon-burger .line {
    
 }
 
+
+.about .title
+{
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    padding-top: 9%;
+}
+.about  .pic
+{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+.abouttext
+{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* 
 .about 
 {
     background-color: #0b132a;
@@ -248,23 +271,23 @@ nav .icon-burger .line {
     height: 100vh;
     background-repeat: no-repeat;
     overflow: hidden;
-}
-.title 
+} 
+ .title 
 {
     text-align: center;
     justify-content: center;
     color: #fff;
     padding-top: 100px;
-    /* text-shadow: 1px 10px 10px 1px white; */
+    text-shadow: 1px 10px 10px 1px white;
     font-size: 2.5rem;
-}
- .text1 
+} 
+   .text1  
 {
      padding-top: 90px;
-     /* padding-right: 700px;  */ 
+     padding-right: 700px;  
     font-size: 20px;
     color: white;
-}
+}  */
 .giphy
 {
     /* padding-left: 50px; */
@@ -276,6 +299,19 @@ nav .icon-burger .line {
     animation: breathe1 3500ms infinite forwards;
     /* animation: up-down 2s ease-in-out infinite alternate-reverse both; */
 }  
+.about .abutme
+{
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+}
+@media screen and (max-width)
+{
+.giphy
+{
+width: 100%;
+height: 100%;
+}    
+}
 @keyframes breathe1
 { 
     50% 
@@ -315,13 +351,7 @@ nav .icon-burger .line {
         height: auto;
         width: 1rem;
     }
-    .giphy
-    {
-        visibility: visible;
-        margin-top: 5rem;
-        width: 100px;
-        height: 100px;
-    }
+   
 }
 
 
