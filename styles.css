@@ -72,11 +72,14 @@ nav ul li a:hover
     transform: scale(5);
     font-size: 1.5rem;
     text-decoration: none;
+    background-color: #0b132a;
 }
 
 #nav-toggle {
     position: absolute;
     top: -100px;
+    z-index: 999;
+    background-color: #0b132a;
 }
 nav .icon-burger {
     display: none;
@@ -107,13 +110,16 @@ nav .icon-burger .line {
         left: 0;
         right: 0;
         top: 100px;
-        bottom: 100%;
+        bottom: 110%;
         width: auto;
         height: auto;
         flex-direction: column;
         justify-content: center;
         justify-content: space-evenly;
-        background-color: rgba(0, 0, 0, 0);
+        /* background-color: rgba(0, 0, 0, 0); */
+        background-color: #0b132a;
+        
+        text-align: center;
         overflow: hidden;
         box-sizing: border-box;
         transition: all .5s ease-in-out;
@@ -267,7 +273,7 @@ nav .icon-burger .line {
     padding-top: 90px;
     justify-content: center;   
     display: flexbox;
-    animation: breathe1 3500ms infinite forwards ;
+    animation: breathe1 3500ms infinite forwards;
     /* animation: up-down 2s ease-in-out infinite alternate-reverse both; */
 }  
 @keyframes breathe1
@@ -303,9 +309,18 @@ nav .icon-burger .line {
 
 @media screen and (max-width: 640px)
 {
-    .bt
+    .bt1
     {
-        margin-bottom: 2.5rem;
+        margin-bottom: 10rem !important;
+        height: auto;
+        width: 1rem;
+    }
+    .giphy
+    {
+        visibility: visible;
+        margin-top: 5rem;
+        width: 100px;
+        height: 100px;
     }
 }
 
