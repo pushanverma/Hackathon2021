@@ -73,14 +73,14 @@
 	background:darkorange
   }
 
-  @media screen and (max-width: 768px) 
+  /* @media screen and (max-width: 768px) 
   {
     .giphy
     {
       height: 200px;
       width: 175px;
     }
-  }
+  } */
 
 
 
