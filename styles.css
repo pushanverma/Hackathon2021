@@ -11,6 +11,79 @@
     font-family: "Poppins", sans-serif;
 }
 
+.scroll-up-btn {
+	position: fixed;
+	height: 45px;
+	width: 42px;
+	background: rgb(255, 1, 1);
+	right: 30px;
+	bottom: 10px;
+	text-align: center;
+	line-height: 45px;
+	color: #fff;
+	z-index: 9999;
+	font-size: 30px;
+	border-radius: 6px;
+	border-bottom-width: 2px;
+	cursor: pointer;
+	opacity: 0;
+	pointer-events: none;
+	transition: all 0.3s ease;
+}
+.scroll-up-btn.show {
+	bottom: 30px;
+	opacity: 1;
+	pointer-events: auto;
+}
+.scroll-up-btn:hover {
+	filter: brightness(90%);
+}
+
+.menu-btn {
+	color: #fff;
+	font-size: 23px;
+	cursor: pointer;
+	display: none;
+}
+
+
+
+
+/* web scroller */
+
+
+::-webkit-scrollbar {
+	width: 10px;
+
+  }
+
+
+  ::-webkit-scrollbar-track {
+	background: #3817ca;
+  }
+
+
+  ::-webkit-scrollbar-thumb {
+	background: rgb(37, 4, 99);
+	border-radius: 10px;
+  }
+
+
+  ::-webkit-scrollbar-thumb:hover {
+	background:darkorange
+  }
+
+  @media screen and (max-width: 768px) 
+  {
+    .giphy
+    {
+      height: 200px;
+      width: 175px;
+    }
+  }
+
+
+
 
 .logoimage 
 {
@@ -21,6 +94,9 @@ margin-left: 30px;
 margin-top: 10px;
 
 }
+
+
+
 nav {
 	position: fixed;
 	z-index: 10;
